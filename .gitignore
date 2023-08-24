@@ -1,0 +1,8 @@
+frontend/node_modules
+*/.env.local
+*/env
+
+/node_modules
+/frontend/node_modules
+
+/projectdocuments

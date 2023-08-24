@@ -1,0 +1,137 @@
+.homebody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+}
+.search.hide{
+    display: none;
+}
+.filterbutton{
+    width: 35px;
+    height: 28px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 31px 28px;
+    gap: 22px;
+
+    /* min-width: 613px; remove later */
+    /* min-height: 313px; remove later */
+
+    background: #EFEFEF;
+    border: 4px solid #041616;
+    border-radius: 7px;
+}
+.filtertitle{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+}
+.filter .slider{
+    min-width: 200px;
+    max-width: 500px;
+    width: 400px;
+    /* height: 49px; */
+    /* background-color: #041616; */
+}
+.filter .agefields{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0px;
+    gap: 20px;
+}
+.filter .agefields .agefield{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 11px;
+
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+.filter .agefields .agefield input{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px 10px;
+
+    width: 68px;
+    height: 28px;
+
+    border: 2px solid #041616;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.filter .dropdowncontainer{
+    align-self: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 27px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.filter .dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+    border: 3px solid #041616;
+
+}
+.filter .dropdowncurrent{
+    padding: 1px 30px 1px 5px;
+}
+.filter .is-open .dropdowncurrent{
+    min-width: 200px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px calc( 3vw - 15px );
+    gap: 50px;
+    flex-wrap: wrap;
+}
